@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar ul {
+    list-style-type: none; /* Removes bullet points */
+    background-color: #333; /* Dark background color */
+    overflow: hidden; /* Prevents list items from going outside */
+    /* Arranges list items horizontally */
+    justify-content: center; /* Centers the links within the navbar */
+}
+
+
+.navbar li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Removes default underline from links */
+    padding: 14px 20px; /* Adds spacing around the text, making the whole area clickable */
+    display: block; /* Makes the entire link area a clickable block */
+    text-align: center; /* Centers the text within the link area */
+}
+
+
+.navbar li a:hover {
+    background-color: #ddd; /* Lighter background on hover */
+    color: black; /* Darker text on hover */
+}
+
+
+.navbar li a.active {
+    background-color: #04AA6D; /* A distinct color for the current page link */
+    color: white;
+}
